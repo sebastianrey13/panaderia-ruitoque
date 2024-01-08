@@ -33,6 +33,11 @@ const Home = () => {
             id : 5,
             nombre: 'Otros',
             img : 'https://lh3.googleusercontent.com/pw/ABLVV87GZ673qewqWck6zwWwbIQH1wkk4J6-mUHElAOrwCuoWZhzjBZI2mUrU2sq-1w9BIU8LBYFssV3sIphcpP89lej76Cjq8BHD4e-qBLzcXwoCL9llDzA45FOx4IzlzETuGf-gyGVDKf-mC9V09PVEo3XbefTWyUyUjvM3OpGhVKiqO3w6uzokuY9IX3dIyGxCedzicC0ZedJqlMyGG-Tk78Wp-Oxw8ElCH_RCZDj-3oFJ3WBf4C5qD10Nu9GyVhjTEWODy30weaWonZIEBC0AEGIp2XUN4qD1bC5PMz0COE4DxnHxUpc-UUOhg4DNucVVdl9v4oLre21wbwbMBsmGxq1K95cedJt_z0OclLup8tmTgOyCtFpKm-CBpSPkDtN_JJUw_bbanU7BGmKC1-MXduD_Bj71YiHaHX7Wn5Ufq_4sSJMNDIqzsaAliOyGDhN8HywiQMgP--IWez_X7DOZKOwOWxwhsAp0f_7zPBNZpD8k9RO5QjcYLyTnaanOK00Sr5BT8mQkuqR3IQCNQU1uqs6Q0WoNHHmpM2rlydjJkrOKp-9KGJrQeHOxpex69PGAYQNm0qW-bP5vd8m9QbR_TTHgFAjsjVfHq3QtzYl4C_Z4C-M8t4rskAzoem6dnYZ3iUpq75y3u8exzIAd2PN23ObdKO8mlt4thgeopU8wBHmc5bREL0bdbEt3LHswJP5X8_WlPa3Nt0qod7vxeaLl88i76Wcsy3SYCrDrbf5_1KjkGAHIc50uvbfpAoLmKmDACvBEECK8mGpEAP1BJClM-ufkUwlSP4o4lFa-5AmZ3UJKuOvrc5bu6RhtpQEw8PjT9LaLdVV-nCzswo6QggtYBmtR_K8Wy9o0Gov_1tqGqInvfVGitZhbu2-BDJrvTbYGdM=w1225-h919-s-no-gm?authuser=0',
+        },
+        {
+            id:6,
+            nombre: 'Galletas',
+            img : 'https://lh3.googleusercontent.com/pw/ABLVV866p-_R7Vc6wsaIoFBweHH1WJSYLhCVzl4mbUO6LDEOf7QmoyyspRfgVkKLXimHE0gTnXOz0blPYSmf1AfO3Ikl6DiopvQniOJAXQvSBqA0tSr8dElAPaAlb72cAznqJyocDXl4wGAvKNO0McXLjU8y=w1225-h919-s-no-gm?authuser=0'
         }
     ]
 
