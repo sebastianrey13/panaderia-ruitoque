@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Salsa', cursive;
+  box-sizing: border-box;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-style: normal; */
+}
+
+.boton {
+  width: auto;
+  border: none;
+  background-color: #ffb921;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  cursor: pointer;
+  background-color: #e99100;
+}
+
+.fondoGeneral {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.fondoApp {
+  background-image: url('../public/imagenes/fondoOutlet2.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #be5804;
+  font-size: 40px;
+  margin: 10px;
+}
