@@ -1,7 +1,6 @@
 import React from 'react'
 import '../estilos/home.css'
 import CardProductos from '../componentes/CardProductos'
-import { v4 as uuidv4 } from 'uuid';
 import panAliñado from '../../public/imagenes/productos/pan/pan3.png'
 import tortas from '../../public/imagenes/productos/tortas/tortas.gif'
 import bizcochos from '../../public/imagenes/productos/bizcochos/bizcochos.gif'
