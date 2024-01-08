@@ -39,7 +39,15 @@
 
 .subtitulo {
   text-align: center;
-  color: #be5804;
+  color: #5f1502;
   font-size: 40px;
   margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
 }

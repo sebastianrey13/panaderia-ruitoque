@@ -18,31 +18,37 @@ const Home = () => {
             id : 1,
             nombre: 'Pan Aliñado',
             img : panAliñado,
+            url : 'pan_aliñado',
         },
         {
             id : 2,
             nombre: 'Tortas',
             img : tortas,
+            url: 'tortas',
         },
         {
             id : 3,
             nombre: 'Bizcochos',
             img : bizcochos,
+            url: 'bizcochos',
         },
         {
             id : 4,
             nombre: 'Lácteos',
             img : lacteos,
+            url: 'lacteos',
         },
         {
             id : 5,
             nombre: 'Otros',
             img : tamales,
+            url: 'otros',
         },
         {
             id:6,
             nombre: 'Galletas',
             img : galletas,
+            url: 'galletas',
         }
     ]
 
@@ -56,6 +62,7 @@ const Home = () => {
                         key = {props.id}
                         nombre = {props.nombre}
                         img = {props.img}
+                        url = {props.url}
                         />
                     ))}
                     

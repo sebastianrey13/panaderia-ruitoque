@@ -1,16 +1,24 @@
 .header-img {
     width: 100%;
     overflow: hidden;
+    margin-top: 65px;
 }
 
 .header-menu {
-    background-color: #000000;
-    height: 56px;
+    position: fixed;
+    background-color: #5f1502;
+    width: 100%;
+    height: 65px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    z-index: 100000;
+}
+
+.header-menu-img{
+width: 55px;
 }
 
 /* Menu Mobile */
