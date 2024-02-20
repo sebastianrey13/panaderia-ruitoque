@@ -62,3 +62,8 @@ a {
 a:hover {
   opacity: 0.5;
 }
+
+.popup-open {
+  overflow: hidden;
+  height: 100%;
+}

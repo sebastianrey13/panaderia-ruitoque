@@ -404,7 +404,6 @@ const Tortas = () => {
       precioTresCuartosLibra: 60000,
       precioLibra: 80000,
     },
-
   ]
 
 
