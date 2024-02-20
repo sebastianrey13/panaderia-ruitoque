@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
-const CardProductos = (props) => {
+const CardCategoria = (props) => {
 
 
 
 
   return (
-    <div className='cardProducto'>
+    <div className='CardCategoria'>
       <h2>{props.nombre}</h2>
       <img src={props.img} alt="" />
       <Link to={`/${props.url}`}>
@@ -17,4 +17,4 @@ const CardProductos = (props) => {
   )
 }
 
-export default CardProductos
+export default CardCategoria

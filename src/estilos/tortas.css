@@ -1,0 +1,121 @@
+.tortas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.tortas-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Card Torta */
+
+.CardTorta {
+  width: 340px;
+  height: 665px;
+  overflow: hidden;
+  border: 1px solid #f5dd93;
+  border-radius: 10px;
+}
+
+.CardTorta-div1 {
+  height: 350px;
+  background-color: #fcf9ea;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardTorta-div1-img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  margin: auto;
+  /* border: 1px solid #f5dd93; */
+}
+
+.CardTorta-nombre {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.CardTorta-escoger-titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.CardTorta-escoger-linea {
+  width: 60px;
+  border-top: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.CardTorta-tamaños {
+  height: 155px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.CardTorta-tamaño-seleccionado {
+  transition: transform 0.2s ease-in-out;
+}
+
+.CardTorta-tamaño-seleccionado:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+.CardTorta-tamaño-seleccionado.seleccionado  {
+  font-weight: bold;
+  transform: scale(1.1);
+  font-size: 13px;
+}
+
+.CardTorta-porciones {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #f5dd93;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* .CardTorta-porciones:hover {
+  border: 2px solid #f0c454;
+} */
+
+.CardTorta-porciones.seleccionado {
+  border: 2px solid #f0c454;
+}
+
+.CardTorta-tamaño-nombre {
+  text-align: center;
+  margin: 10px;
+}
+

@@ -9,9 +9,9 @@
 }
 
 
-/* Card Productos */
+/* Card Categoria */
 
-.cardProducto{
+.CardCategoria{
     position: relative;
     width: 160px;
     height: 220px;
@@ -24,18 +24,18 @@
     margin: 10px;
 }
 
-.cardProducto h2{
+.CardCategoria h2{
     text-align: center;
     color: #e99100;
 }
 
-.cardProducto img{
+.CardCategoria img{
     width: 146px;
     height: 110px;
     border-radius: 5px;
 }
 
-.cardProducto p{
+.CardCategoria p{
     display: flex;
     flex-direction: column;
     color: #e99100;

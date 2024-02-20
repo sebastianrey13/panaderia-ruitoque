@@ -1,14 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Salsa', cursive;
   box-sizing: border-box;
-  /* font-family: 'Roboto', sans-serif; */
-  /* font-style: normal; */
+  font-family: 'Onest', sans-serif;
+  font-style: normal;
 }
 
 .boton {
-  width: auto;
   border: none;
   background-color: #ffb921;
   cursor: pointer;
@@ -20,6 +18,19 @@
 .boton:hover {
   cursor: pointer;
   background-color: #e99100;
+}
+
+.botonCardProductos {
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  /* text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white; */
 }
 
 .fondoGeneral {

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../estilos/home.css'
-import CardProductos from '../componentes/CardProductos'
+import CardCategoria from '../componentes/CardCategoria'
 import panAliñado from '../../public/imagenes/productos/pan/pan3.png'
 import tortas from '../../public/imagenes/productos/tortas/tortas.gif'
 import bizcochos from '../../public/imagenes/productos/bizcochos/bizcochos.gif'
@@ -58,7 +58,7 @@ const Home = () => {
                 <h2 className='subtitulo'>Nuestros Productos</h2>
                 <div className='contenedorProductos'>
                     {productos.map(props =>(
-                        <CardProductos
+                        <CardCategoria
                         key = {props.id}
                         nombre = {props.nombre}
                         img = {props.img}
